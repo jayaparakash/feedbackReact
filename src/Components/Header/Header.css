@@ -1,0 +1,10 @@
+/* BasicExample.css */
+.custom-nav {
+    margin-right: 50px; /* Move the whole Nav to the right by 50px */
+  }
+  
+  .custom-nav .nav-link {
+    margin-right: 25px; /* Increase the gap between each Nav.Link by 25px */
+    font-size: 1.25rem; /* Increase font size by 10px (assuming the default font size is 1rem) */
+  }
+  
