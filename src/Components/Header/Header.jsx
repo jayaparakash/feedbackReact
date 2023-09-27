@@ -20,6 +20,7 @@ function BasicExample() {
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/feedback">Feedback</Nav.Link>
             <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
+            <Nav.Link as={Link} to="/reviews">Reviews</Nav.Link>
             <Nav.Link as={Link} to="/aboutus">About Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
