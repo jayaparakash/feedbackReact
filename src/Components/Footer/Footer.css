@@ -1,0 +1,22 @@
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.icons_link {
+    width: 30px;
+    height: 50px;
+    color: rgb(71, 71, 60);
+    transition: transform 0.3s ease-in-out;
+}
+
+.icons_link:hover {
+    transform: rotate(360deg) ;
+    transition: 1s;
+    width: 40px;
+    height: 50px;
+    color: rgb(255, 83, 10);
+}
+
