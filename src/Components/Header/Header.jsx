@@ -8,8 +8,9 @@ import "./Header.css"; // Keep your CSS file for styling
 
 function BasicExample() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
-      <Container className="">
+    <div className="cont">
+    <Navbar expand="lg" className="bg-body-tertiary ">
+
         <Navbar.Brand as={Link} to="/">
           <img src={logo} alt="logo" />
         </Navbar.Brand>
@@ -24,8 +25,8 @@ function BasicExample() {
             <Nav.Link as={Link} to="/aboutus">About Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      </Container>
     </Navbar>
+    </div>
   );
 }
 

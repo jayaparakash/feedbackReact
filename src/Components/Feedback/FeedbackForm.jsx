@@ -49,7 +49,7 @@ function FeedbackForm() {
   };
 
   return (
-    <div className="form-container">
+    <div className="form-container mt-5">
       <form ref={formRef} name="form" method="post" onSubmit={handleSubmit}>
         <label htmlFor="name">Name:</label>
         <input
