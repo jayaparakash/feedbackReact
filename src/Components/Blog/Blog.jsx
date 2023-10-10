@@ -1,51 +1,46 @@
 import { Link } from "react-router-dom";
 import React from "react";
-import Carousel from 'react-bootstrap/Carousel';
-import img1 from "../../Images/IMG_20230327_132504507.jpg"
-import img2 from '../../Images/IMG_20230327_133656755.jpg';
-import img3 from '../../Images/IMG_20230327_132504507.jpg';
+import Carousel from "react-bootstrap/Carousel";
+import v1 from "../../Videos/Ait.mp4"
+import img1 from "../../Images/IMG_20230327_133757704.jpg";
+import img2 from "../../Images/IMG_20230327_133656755.jpg";
+
 const Blog = () => {
   return (
     <div className="blog">
-    <Carousel data-bs-theme="dark">
-   <Carousel.Item>
-     <img style={{height:550}}
-       className="d-block w-100"
-       src={img1}
-       alt="First slide"
-     />
-     <Carousel.Caption>
-       <h5>First slide label</h5>
-       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-     </Carousel.Caption>
-   </Carousel.Item>
-   <Carousel.Item>
-     <img style={{height:550}}
-       className="d-block w-100"
-       src={img2}
-       alt="Second slide"
-     />
-     <Carousel.Caption>
-       <h5>Second slide label</h5>
-       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-     </Carousel.Caption>
-   </Carousel.Item>
-   <Carousel.Item>
-     <img  style={{height:550}}
-       className="d-block w-100"
-       src={img3}
-       alt="Third slide"
-     />
-     <Carousel.Caption>
-       <h5>Third slide label</h5>
-       <p>
-         Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-       </p>
-     </Carousel.Caption>
-   </Carousel.Item>
- </Carousel>        
+     
+        {/*.........Carousel..............*/}
 
- <div className="locations">
+      <Carousel data-bs-theme="dark">
+        <Carousel.Item>         
+        <video className="w-100" controls autoPlay src={v1}> </video>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className ="d-block w-100"
+            src={img1}
+            height={500}
+            alt="Second slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className ="d-block w-100"
+            src={img2}
+            height={500}
+            alt="Third slide"
+          />
+          <Carousel.Caption></Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+
+      <div>
+     
+     </div>
+
+        {/*............. Locations............ */}
+
+      <div className="locations mt-5">
         <div className="container text-center">
           <h2
             className="heading-7 wow fadeInUp animated animated"
@@ -55,7 +50,7 @@ const Blog = () => {
             Locations{" "}
           </h2>
           <h6
-            className="heading-8 wow fadeInDown animated animated"
+            classNameName="heading-8 wow fadeInDown animated animated"
             style={{ visibility: "visible" }}
           >
             {" "}
@@ -125,7 +120,7 @@ const Blog = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 mt-5">
                 <div
                   className="card cursorPointer wow fadeInUp animated animated"
                   style={{ visibility: "visible" }}
@@ -133,10 +128,10 @@ const Blog = () => {
                   {" "}
                   <img
                     src="https://www.achieversit.com/assets/images/hyd.jpg"
-                    className=""
+                    className  =""
                     alt="Locations"
                   />
-                  <div className="card-body">
+                  <div className ="card-body">
                     <h5>Kukatpally - Hyderabad</h5>
                     <p>
                       #101, 1st floor, Vandana's Trade Center, Beside Padmavathi
@@ -148,7 +143,7 @@ const Blog = () => {
                       target="_blank"
                     >
                       <i
-                        className="fa fa-map-marker text-danger"
+                        className ="fa fa-map-marker text-danger"
                         aria-hidden="true"
                       ></i>{" "}
                       Get Directions
@@ -156,18 +151,18 @@ const Blog = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6">
+              <div className ="col-md-6 mt-5">
                 <div
-                  className="card cursorPointer wow fadeInUp animated animated"
+                  className ="card cursorPointer wow fadeInUp animated animated"
                   style={{ visibility: "visible" }}
                 >
                   {" "}
                   <img
                     src="https://www.achieversit.com/assets/images/btm.jpg"
-                    className=""
+                    className =""
                     alt="Locations"
                   />
-                  <div className="card-body">
+                  <div className ="card-body">
                     <h5>RajajiNagar - Bangalore</h5>
                     <p>Upcoming</p>
                   </div>
@@ -177,7 +172,7 @@ const Blog = () => {
           </div>
         </div>
       </div>
-     </div>
+    </div>
   );
 };
 
