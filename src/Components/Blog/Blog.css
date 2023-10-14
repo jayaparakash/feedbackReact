@@ -1,0 +1,140 @@
+.bestseller {
+  position: absolute;
+  right: 15px;
+  top: 0px;
+  width: 28px;
+}
+
+.card {
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.15) !important;
+}
+svg:not(:root).svg-inline--fa {
+  overflow: visible;
+}
+
+/* font size for logo */
+
+.svg-inline--fa.fa-w-14 {
+  width: 0.875em;
+}
+
+.svg-inline--fa.fa-w-16 {
+  width: 1em;
+}
+
+.svg-inline--fa.fa-w-16 {
+  width: 1em;
+}
+.svg-inline--fa.fa-w-14 {
+  width: 0.875em;
+}
+
+.svg-inline--fa.fa-w-16 {
+  width: 1em;
+}
+
+.svg-inline--fa.fa-w-14 {
+  width: 0.875em;
+}
+
+.svg-inline--fa.fa-w-16 {
+  width: 1em;
+}
+
+.svg-inline--fa.fa-w-14 {
+  width: 0.875em;
+}
+
+.svg-inline--fa.fa-w-14 {
+  width: 0.875em;
+}
+
+.svg-inline--fa.fa-w-14 {
+  width: 0.875em;
+}
+.font-60 {
+  font-size: 60px;
+}
+
+.card-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: math;
+  font-size: 15px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: orangered;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* background color for card */
+
+.bg-grade-f {
+  background: linear-gradient(to right, #fc6767, #ec008c);
+  padding: 10px;
+}
+
+.bg-grade-g {
+  background: linear-gradient(to left, #f2c94c, #f2994a);
+  padding: 10px;
+}
+
+.bg-grade-e {
+  background: linear-gradient(to right, #89fffd, #ef32d9);
+  padding: 10px;
+}
+
+.bg-grade-d {
+  background: linear-gradient(to right, #92fe9d, #00c9ff);
+  padding: 10px;
+}
+.bg-grade-c {
+  background: linear-gradient(to left, #1cb5e0, #000046);
+  padding: 10px;
+}
+.bg-grade-b {
+  background: linear-gradient(to left, #f2fcfe, #1c92d2);
+  padding: 10px;
+}
+
+.bg-grade-a {
+  background: linear-gradient(to left, #feb47b, #ff7e5f);
+  padding: 10px;
+}
+
+.bg-grade-d {
+  background: linear-gradient(to right, #92fe9d, #00c9ff);
+  padding: 10px;
+}
+
+.bg-grade-c {
+  background: linear-gradient(to left, #1cb5e0, #000046);
+  padding: 10px;
+}
+
+.bg-grade-b {
+  background: linear-gradient(to left, #f2fcfe, #1c92d2);
+  padding: 10px;
+}
+
+/* Reveiw stars */
+.svg-inline--fa.fa-w-18 {
+  width: 1.125em;
+  color: yellow;
+}
+
+.fa-star:before {
+  content: "none";
+}
+
+.text-yellow {
+  font-size: 20px;
+}
